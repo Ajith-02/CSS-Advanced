@@ -1,0 +1,41 @@
+.clip{
+    border: 1px solid red;
+    width: 150px;
+    text-overflow: clip;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.ellipsis{
+    border: 1px solid blue;
+    width: 200px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.ellipsis:hover{
+    overflow: visible;
+}
+
+.wordWrap{
+    border: 1px solid green;
+    width: 100px;
+    word-wrap: break-word;
+}
+
+.wordBreak1{
+border: 1px solid navy;
+width: 80px;
+word-break: keep-all;
+}
+
+.wordBreak2{
+border: 1px solid blueviolet;
+width: 75px;
+word-break: break-all;
+}
+
+.writing{
+    writing-mode: vertical-rl;
+}
