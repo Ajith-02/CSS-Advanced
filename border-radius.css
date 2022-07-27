@@ -1,0 +1,58 @@
+.corner1{
+    border-radius: 5px;
+    width: 150px;
+    height: 100px;
+    background-color: antiquewhite;
+}
+
+.corner2{
+    border-radius: 5px 25px;
+    background-color: black;
+    height: 100px;
+    width: 150px;
+}
+
+.corner3{
+    border-radius: 10px 50px 15px;
+    background-color: brown;
+    height: 100px;
+    width: 150px;
+}
+
+.corner4{
+    border-radius: 10px 10px 25px 15px;
+    background-color: coral;
+    height: 100px;
+    width: 150px;
+}
+
+.border1{
+    height: 100px;
+    width: 150px;
+    border: 2px solid green;
+    border-radius: 10px 5px 50px 25px;
+}
+
+.border2{
+    height: 100px;
+    width: 150px;
+    border: 3px solid black;
+    background-color: aquamarine;
+    border-radius: 10px;
+}
+
+.border3{
+    height: 100%;
+    width: 50%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-image: url("profilepic.png");
+    border-radius: 50px 10px 90px 70px;
+    border: 2px solid red;
+}
+
+.imgbprder{
+    border: 10px solid transparent;
+    padding: 25px;
+    border-image: url("flower-border.png") 30% round;
+}
