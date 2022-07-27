@@ -1,0 +1,27 @@
+.hreoimg{
+background-image: url("heroimg.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+position: relative;
+height: 500px;
+
+}
+.herotext{
+text-align: center;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+.multibg2{
+    
+    background-image: url("Flowers-PNG-File.png"), url("multibg1.jpg");
+    background-position: right bottom, top right;
+    background-repeat: no-repeat;
+    padding: 50px;
+    color: aliceblue;
+    font-size: 32px;
+    background-size: 20%, 100%; 
+    
+}
