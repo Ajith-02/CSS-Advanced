@@ -1,0 +1,36 @@
+.translate{
+    height: 10%;
+    width: 25%;
+    background-color: brown;
+    transform: translate(20%, 40%);
+    margin-bottom: 10px;
+}
+
+.rotat{
+    height: 10%;
+    width: 10%;
+    background-color: aquamarine;
+    border: 1px solid black;
+    
+}
+.rotate{
+    height: 10%;
+    width: 10%;
+    background-color: aquamarine;
+    transform: rotate(50deg);
+}
+
+.scale{
+    width: 10%;
+    height: 10%;
+    background-color: bisque;
+    transform: scale(2, 5);
+    margin: 100px;    
+}
+
+.matrix{
+    width: 10%;
+    height: 10%;
+    background-color: bisque;
+    transform: matrix(5, 2, 0, 3, 2, 5);
+}
