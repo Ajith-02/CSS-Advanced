@@ -1,0 +1,53 @@
+.one{
+    width: 10%;
+    height: 10%;
+    background-color: antiquewhite;
+    animation-name: one;
+    animation-duration: 10s;
+}
+
+/* @keyframes one {
+    from {background-color: antiquewhite;}
+    to{background-color: crimson;}
+} */
+
+@keyframes one {
+    0%{background-color: aquamarine;}
+    25%{background-color: brown;}
+    50%{background-color: cadetblue;}
+    75%{background-color: black;}
+    100%{background-color: azure;}
+}
+
+
+.two{
+    width: 10%;
+    height: 10%;
+    position: relative;
+    background-color: red;
+    animation-name: two;
+    animation-duration: 5s;
+    animation-iteration-count: 3;
+}
+
+@keyframes two{
+    0%{background-color: aliceblue; left: 0; top: 0;}
+    25%{background-color: blue; left: 200px; top: 0;}
+    50%{background-color: black; left: 200px; top: 200px;}
+}
+
+.three{
+    width: 15%;
+    height: 15%;
+    background-color: red;
+    position: relative;
+    animation-name: three;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
+
+@keyframes three {
+from{left: 0px;}
+to{left: 400px;}
+}
